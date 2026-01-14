@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h2>JavaScript Program 1 </h2>
+        <p id="demo">JavaScript can change HTML content </p>
+        <button type="button" onclick="changeText()">Click Me!</button>
+        <script>
+        function changeText() {
+            let demoElement = document.getElementById("demo");
+            demoElement.innerHTML = "Hello JavaScript!";
+        }
+        </script>
+    </body>
+</html>
